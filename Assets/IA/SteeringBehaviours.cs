@@ -53,7 +53,7 @@ public class SteeringBehaviours : MonoBehaviour
             agentTransform.Translate(movement);
         }
     }
-    public class Pursuit //-------------------------------------------------------------------------PURSUIT-------------------------------------------
+    public class Pursuit //-------------------------------------------------------------------------PURSUIT------------------------------------------- 
     {
         private Transform agentTransform; 
         private Transform targetTransform; 
@@ -71,7 +71,7 @@ public class SteeringBehaviours : MonoBehaviour
 
         public void Update()
         {
-            // Calcula la dirección anticipando la posición futura del objetivo
+            // Calcula la dirección anticipando la posición futura del objetivo.
             Vector3 directionToTarget = targetTransform.position - agentTransform.position;
             float targetSpeed = targetRigidbody.velocity.magnitude;
             float predictionTime = directionToTarget.magnitude / (speed + targetSpeed);

@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class BasicAgent : MonoBehaviour
 {
-    // Variables públicas para el transform del objetivo y la velocidad
     public Transform target;
     public Rigidbody targetRigidbody; // Rigidbody del objetivo (necesario para el comportamiento de pursuit y evade)
     public float speed = 5f;
 
-    public GameObject wanderRadiusObject; // Esfera que representa el radio de deambulación
+    public GameObject wanderRadiusObject; // Esfera que representa el radio de wander
 
     private SteeringBehaviours.Seek seekBehavior;
     private SteeringBehaviours.Flee fleeBehavior;
@@ -24,14 +23,12 @@ public class BasicAgent : MonoBehaviour
     // Inicialización
     void Start()
     {
-        // Verifica si se asignó un objetivo
         if (target == null)
         {
             Debug.LogError("No se ha asignado un objetivo al agente: " + gameObject.name);
             return;
         }
 
-        // Verifica si se asignó una esfera de radio de deambulación
         if (wanderRadiusObject == null)
         {
             Debug.LogError("No se ha asignado una esfera de radio de deambulación al agente: " + gameObject.name);
