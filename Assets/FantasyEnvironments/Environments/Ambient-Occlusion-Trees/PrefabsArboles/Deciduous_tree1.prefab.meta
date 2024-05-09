@@ -1,10 +1,7 @@
 fileFormatVersion: 2
 guid: dc20bf501e8161b40859eb66568d49f6
-labels:
-- Terrain
-NativeFormatImporter:
+PrefabImporter:
   externalObjects: {}
-  mainObjectFileID: 100100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
