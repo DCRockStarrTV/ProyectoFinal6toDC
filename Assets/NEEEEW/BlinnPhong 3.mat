@@ -36,6 +36,6 @@ Material:
     - _Metallic: 0
     - _Spec: 0.007
     m_Colors:
-    - _Color: {r: 0.29589763, g: 0.3018868, b: 0.28337488, a: 1}
-    - _SpecColor: {r: 0.50980395, g: 0.40795186, b: 0, a: 1}
+    - _Color: {r: 0.4041296, g: 0.4528302, b: 0.33107868, a: 1}
+    - _SpecColor: {r: 0, g: 0.50980395, b: 0.0032985352, a: 1}
   m_BuildTextureStacks: []
