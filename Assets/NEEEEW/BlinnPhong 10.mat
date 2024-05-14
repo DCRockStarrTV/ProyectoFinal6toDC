@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BlinnPhong 2
+  m_Name: BlinnPhong 10
   m_Shader: {fileID: 4800000, guid: dfbcf2b20bcedac4d9c8f66a2eb82299, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -36,6 +36,6 @@ Material:
     - _Metallic: 0
     - _Spec: 0.007
     m_Colors:
-    - _Color: {r: 0.6603774, g: 0.5683029, b: 0.046724807, a: 1}
-    - _SpecColor: {r: 0.7294118, g: 0.47058827, b: 0.12941177, a: 1}
+    - _Color: {r: 0.6792453, g: 0.11213954, b: 0.59245545, a: 1}
+    - _SpecColor: {r: 0.28627452, g: 0.4431373, b: 0.20000002, a: 1}
   m_BuildTextureStacks: []
