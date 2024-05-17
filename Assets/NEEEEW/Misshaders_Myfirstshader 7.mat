@@ -24,7 +24,7 @@ Material:
     m_Floats:
     - MyMulty: 2
     m_Colors:
-    - MyColor: {r: 1, g: 0.26575673, b: 0, a: 1}
+    - MyColor: {r: 0, g: 1, b: 0.77576256, a: 1}
     - MyEmission: {r: 0, g: 0, b: 0, a: 1}
     - MyNormal: {r: 0.3962264, g: 0, b: 0.21298885, a: 1}
   m_BuildTextureStacks: []
